@@ -1,0 +1,157 @@
+/*   base content margen  */
+.baseSuite{
+ 
+    width: 70%;
+    margin: auto;
+    
+    
+}
+
+/* ============================ header ============================ */
+
+.header{
+    background-color: #3C5A98;
+    height: 100px; 
+    overflow: hidden;
+} 
+
+/*---------email and pass-------*/
+.loginDv {
+    display: inline-flex;
+    margin-top: 25px;
+    float: right;
+}
+
+.unit {
+    padding-right: 5px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.unit span {
+    display: flow-root;
+    color: white;
+    font-size: 10px;
+    padding-bottom: 4px;
+}
+.unit input{
+    width: 150px;
+    height: 15px;
+}
+.password{
+    font-size: 12px;
+}
+.unit a {
+    margin-top: 4px;
+    color: #75a8f4;
+    display: flow-root;
+    font-size: 10px;
+    overflow: auto;
+}
+.loginBt{
+    margin-top: 15px;
+    color: white;
+    background-color: #4A66A0;
+    height: 20px;
+    width: 50px;
+    font-size: 11px;
+    font-weight: bolder;
+    font-family: arial;
+    border: none;
+}
+
+
+/*------------------- image of logo ----------*/
+.logo {
+    float: left;
+    margin-top: 10px;
+}
+/*=============================== end of header ===========================*/
+
+/* ============================== main content ============================*/
+.mainContent{
+    display: inline-block;
+    width: 100%;
+}
+
+.titlesFormat  { 
+    width: 100%;
+    }
+
+.titlesFormat h1 {  
+    width: 100%;
+    margin: 15px 0 0 0;
+    font-family: arial;
+    font-size: 35px;
+    color: #333333;
+}
+
+.titlesFormat h2 {  
+    width: 100%;
+    margin: 10px 0 ;
+    font-family: arial;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #516470;
+}
+
+/*-----------left div --------------*/
+.recentLoginsDv {
+/*    display: inline-block;*/
+    float: left;
+    margin-left: 16px;
+    max-width: 50%;
+}
+
+/*.recentLoginsDv { }*/
+
+
+.recentLoginsAccount {
+    width: 150px;
+    margin: 20px 0 0 0 ;
+    background-color: #FFFFFF;
+}
+
+.recentLoginsAccount span{
+/*    margin:auto   ;*/
+    width: 100%;
+    height: 60px;
+/*    padding-left:50px;*/
+    text-align: center;
+}
+
+
+.recentLoginsAccount img {
+    background-color: #F5F6F7;
+    width: 100%;
+    height: 170px;
+    border: 0;
+    overflow: hidden;
+    outline-color: none;
+}
+/*------------right div-----------*/
+
+.creatNewAccount { float: right; width: 50%; }
+.creatNewAccount .name{float: left  ; width:100%; }
+.creatNewAccount input{ width: 100%;  margin: 5px 0; border: 0; height: 40px; }
+.creatNewAccount .name input{ width: 48%;border: 0; float: left;}
+.creatNewAccount .name input:last-child{ float: right;}
+
+/*   end of right div  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
